@@ -24,7 +24,7 @@ Webflix is a responsive Netflix landing page clone built with HTML and CSS. This
    > cd Webflix
 3. Open `index.html` in your browser to view the site.
 
-<ins>Live demo:</ins> [Weblix](https://weblix-in.netlify.app/)
+<ins>Live demo:</ins> [Weblix](https://webflix-in.netlify.app/)
 
 ### Responsive design
 This project implements responsive design through:
