@@ -1,0 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(./assets/images/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    width: 130px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Oswald", sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line {
+    height: 7px;
+    background-color: rgb(36, 35, 35);
+}
+
+.btn {
+    padding: 4px 8px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(50, 49, 49, 0.7);
+    border: 1px solid rgba(152, 152, 152, 0.81);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #5024ef;
+    font-weight: 400;
+    color: white;
+    padding: 4px 24px;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+.btn-blue-sn {
+    background-color: rgb(80, 36, 239);
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.main input {
+    padding: 8px 104px 7px 12px;
+    font-weight: 900;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(152, 152, 152, 0.81);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.seyImg {
+    position: relative;
+}
+
+.seyImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+}
+
+.seyImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 510px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 21px;
+}
+
+.divider {
+    height: 7px;
+    background-color: rgb(36, 35, 35);
+    max-width: 70vw;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.secondImg {
+    position: relative;
+}
+
+.secondImg img {
+    width: 400px;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+section.second>div:last-child {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+section.second>div:last-child :nth-child(1) {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+section.second>div:last-child :nth-child(2) {
+    font-size: 21px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+section.third>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.third>div:first-child :nth-child(1) {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+section.third>div:first-child :nth-child(2) {
+    font-size: 21px;
+}
+
+section.third .thirdImg {
+    position: relative;
+    width: 640px;
+}
+
+section.third .thirdImg img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.faq {
+    background-color: #000000;
+    color: white;
+    padding: 34px;
+}
+
+.faq h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.faquery {
+    transition: all 1s ease-out;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 55vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+.faquery:hover {
+    background-color: rgba(87, 44, 244, 0.73);
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .questions {
+    padding: 34px 0;
+    font-size: 23px;
+}
+
+footer .questions:hover {
+    color: #89cff0;
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    color: rgb(66, 99, 232);
+}
+
+/* Media Query for Tablets */
+@media screen and (max-width: 1024px) {
+    .main {
+        height: 60vh;
+    }
+
+    .main .box {
+        height: 60vh;
+    }
+
+    nav {
+        max-width: 85vw;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 36px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 20px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 16px;
+    }
+
+    .first,
+    .second,
+    .third {
+        max-width: 85vw;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    section.first>div :nth-child(1),
+    section.second>div:last-child :nth-child(1),
+    section.third>div:first-child :nth-child(1) {
+        font-size: 32px;
+    }
+
+    section.first>div :nth-child(2),
+    section.second>div:last-child :nth-child(2),
+    section.third>div:first-child :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .seyImg img,
+    .seyImg video {
+        width: 80%;
+        max-width: 450px;
+    }
+
+    .seyImg video {
+        top: 40px;
+        right: 10%;
+        width: 75%;
+        max-width: 400px;
+    }
+
+    .secondImg img,
+    section.third .thirdImg img {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    section.second>div:last-child {
+        margin-left: 0;
+    }
+
+    section.third .thirdImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divider {
+        max-width: 85vw;
+    }
+
+    .faquery {
+        max-width: 80vw;
+        font-size: 18px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .footer-item {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}
+
+/* Media Query for Smartphones */
+@media screen and (max-width: 480px) {
+    .main {
+        height: 70vh;
+    }
+
+    .main .box {
+        height: 70vh;
+    }
+
+    nav {
+        max-width: 90vw;
+        height: 50px;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    .btn {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+
+    .btn-blue {
+        padding: 4px 12px;
+        font-size: 14px;
+    }
+
+    .hero {
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 24px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .main input {
+        padding: 8px 12px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .first,
+    .second,
+    .third {
+        max-width: 90vw;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+
+    section.first>div :nth-child(1),
+    section.second>div:last-child :nth-child(1),
+    section.third>div:first-child :nth-child(1) {
+        font-size: 24px;
+    }
+
+    section.first>div :nth-child(2),
+    section.second>div:last-child :nth-child(2),
+    section.third>div:first-child :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .seyImg img,
+    .secondImg img,
+    section.third .thirdImg img {
+        width: 100%;
+    }
+
+    .seyImg video {
+        top: 30px;
+        right: 0;
+        width: 92%;
+    }
+
+    section.third .thirdImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divider {
+        max-width: 90vw;
+        margin-bottom: 30px;
+    }
+
+    .line {
+        margin-top: 10px;
+        background-color: rgb(36, 35, 35);
+        position: relative;
+        width: 100%;
+    }
+
+    .faq h2 {
+        font-size: 24px;
+    }
+
+    .faquery {
+        max-width: 90vw;
+        font-size: 16px;
+        padding: 16px;
+        margin: 20px auto;
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+
+    footer .questions {
+        padding: 20px 0;
+        font-size: 17px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-item {
+        gap: 15px;
+    }
+
+    .footer-item a {
+        font-size: 14px;
+    }
+}
